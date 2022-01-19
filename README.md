@@ -50,5 +50,28 @@ from math import ceil
 
 %matplotlib inline
 
+### plot styling preferences
+plt.style.use('seaborn-whitegrid')
 
+font = {'family': 'Helvetica', 'weight':'bold', 'size': 14}
 
+mpl.rc('font', **font)
+
+### effect size calculation based on our expected rates
+effect_size = sms.proportion_effectsize(0.13, 0.15)
+
+### calculating sample size needed
+required_n = sms.NormalIndPower().solve_power(effect_size, power=0.8, alpha=0.05, ratio=1)
+
+### Rounding up to next whole number
+required_n = ceil(required_n)
+
+print(required_n)
+
+4720
+
+##### Above result suggests, we need at least 4720 observations for each group.
+##### The meaning of power = 0.8 suggests if actual difference in conversion rates (13% vs. 15%) exists between our designs, there is about 80% chance to detect it statistically significant in our test with the sample size we calculated.
+
+### 2. Data collection and preparation
+##### data is downloaded from Kaggle. Python is used to prepare and analyze the data. Each group will consists of 4720 random rows.
