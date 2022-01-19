@@ -75,3 +75,8 @@ print(required_n)
 
 ### 2. Data collection and preparation
 ##### data is downloaded from Kaggle. Python is used to prepare and analyze the data. Each group will consists of 4720 random rows.
+df = pd.read_csv('ab_data.csv')
+
+df.head()
+
+![image](https://user-images.githubusercontent.com/48388697/150173710-6931455f-95f2-49c9-ab9e-90196ba2a4df.png)
