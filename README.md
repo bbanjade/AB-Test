@@ -80,3 +80,17 @@ df = pd.read_csv('ab_data.csv')
 df.head()
 
 ![image](https://user-images.githubusercontent.com/48388697/150173710-6931455f-95f2-49c9-ab9e-90196ba2a4df.png)
+
+df.info()
+
+![image](https://user-images.githubusercontent.com/48388697/150173796-2dbc7b89-2a2a-4abc-8f21-3317cb5537ab.png)
+
+##### To make sure all the control group are seeing the old page and viceversa
+
+pd.crosstab(df['group'], df['landing_page'])
+
+![image](https://user-images.githubusercontent.com/48388697/150173903-fe2df0ac-35db-484e-a923-89bcd6c5dd49.png)
+
+![image](https://user-images.githubusercontent.com/48388697/150173939-bceda82d-2d9e-4448-ab12-18ffcb46a276.png)
+
+![image](https://user-images.githubusercontent.com/48388697/150173978-3c9b6d35-8e44-431d-abf9-a94821be44da.png)
