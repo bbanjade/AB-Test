@@ -4,4 +4,9 @@ The problem of these projects are trying to test the impact of a new product pag
 
 # 1) AB-Test in Python:
 
-
+ 5 steps of this Analysis:
+##### 1. Experiment Definition
+##### 2. Data collection and preparation
+##### 3. Visualization
+##### 4. Hypothesis testing
+##### 5. Conclusions
