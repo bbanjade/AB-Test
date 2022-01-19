@@ -29,4 +29,18 @@
 
 ##### sample size for each group is calculated from the "Power Analysis", which depends on: (a) Power of test (1-B) -- probability of finding a statistical difference between the groups in test set when a difference is actually present. This is usually set at 0.8 by convention. (b) Alpha value (a) - The critical value set at 0.05. (c) Effect size -- How big of a difference we expect there to be between teh conversion rates.
 
-##### we need a difference of 2%, so we need to use 13% and 15% to calculate the effect size we want. Rest Python will caclculate.
+##### we need a difference of 2%, so we need to use 13% and 15% to calculate the effect size we want. Rest Python will calculate.
+
+### Packages imports
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
+import statsmodels.stats.api as sms
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import seaborn as sns
+from math import ceil
+%matplotlib inline
+
+
+
