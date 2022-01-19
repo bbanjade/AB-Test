@@ -94,3 +94,6 @@ pd.crosstab(df['group'], df['landing_page'])
 ![image](https://user-images.githubusercontent.com/48388697/150173939-bceda82d-2d9e-4448-ab12-18ffcb46a276.png)
 
 ![image](https://user-images.githubusercontent.com/48388697/150173978-3c9b6d35-8e44-431d-abf9-a94821be44da.png)
+
+![image](https://user-images.githubusercontent.com/48388697/150174157-9c4354e9-9b6b-47ab-ae55-211ab73ac954.png)
+
